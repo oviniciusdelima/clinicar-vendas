@@ -1,0 +1,684 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    --cor-bg-1: #F7F8F9;
+    --cor-bg-2: #FAFAFA;
+    --cor-texto-1: #2A3342;
+    --cor-texto-2: #556987;
+    --cor-texto-3: #FFFFFF;
+    --cor-texto-4: #00A199;
+    --cor-texto-5: #35BAC7;
+    --cor-texto-6: #01B1AC;
+    --fonte-1: 'Poppins', sans-serif;
+    --fonte-2: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-bg-3);
+}
+
+.logo__clinicar {
+    display: block;
+    margin: 0 auto;
+    padding-top: 25px;
+    margin-bottom: 5px;
+}
+
+
+.container {
+    width: 1440px;
+    display: block;
+    margin: 0 auto;  
+}
+
+.principal {
+    display: block;
+    margin: 0 auto;  
+    background-image: url(img/bg-checker.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.principal__flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 450px;
+}
+
+.principal__flex__padding {
+    padding-left: 10%;
+    
+}
+
+.principal__titulo {
+    font-family: var(--fonte-1) ;
+    font-size: 3.438rem;
+    font-weight: 300;
+    color: var(--cor-texto-1);
+    letter-spacing: -0.02em;
+    line-height: 4.125rem;
+    padding-bottom: 25px;
+}
+
+.principal__paragrafo {
+    font-family: var(--fonte-1);
+    color: var(--cor-texto-2);
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+}
+
+.principal__flex__imagem {
+    width: 50%;
+    padding-right: 50px;
+}
+
+.principal__titulo__2 {
+    font-family: var(--fonte-1);
+    color: var(--cor-texto-1);
+    text-align: center;
+    padding: 0 15%;
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.principal__titulo__3 {
+    font-family: var(--fonte-1);
+    color: var(--cor-texto-2);
+    text-align: center;
+    padding: 0 20%;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-top: 25px;
+}
+
+.principal__logofarmas {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 2.5%;
+}
+
+.principal__botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    
+}
+
+.principal__botao__comece {
+    font-family: var(--fonte-1);
+    font-weight: 500;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--cor-texto-1);
+    padding: 16px 28px;
+    background: linear-gradient(90deg, #FFE259 0%, #FFA751 100%);
+    box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+    border-radius: 36px;
+    width: 490px;
+    text-align: center;
+
+}
+
+.secundaria { 
+    background-image: url(./img/bg-waves.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    padding-top: 90px;
+        
+}
+
+.secudaria__titulo__principal {
+    font-weight: 500;
+}
+
+
+.secundaria__textos {
+    text-align: center;
+    padding: 5% 0%;
+    width: 960px;
+    display: block;
+    margin: 0 auto; 
+}
+
+.secundaria__box {
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.secundaria__titulo {
+    font-family: var(--fonte-1);
+    font-size: 2.375rem;
+    color: #2A3342;
+    font-weight: 700;
+    padding-bottom: 50px;
+    
+}
+
+.secundaria__lista {
+    list-style-image: url(./img/tique-box.png);
+    list-style-position: outside;
+    color: var(--cor-texto-2);
+    font-family: var(--fonte-1);
+    font-weight: 500;
+    font-size: 1.875rem;
+    padding-left: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.secundaria__paragrafos {
+    line-height: 2.25rem;
+}
+
+.terciaria {
+    background: linear-gradient(180deg, #94D2BD 0%, #00B1AC 100%);
+}
+
+.terciaria__titulo {
+    color: var(--cor-texto-3);
+    font-family: var(--fonte-1);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.75rem;
+    line-height: 55px;
+    width: 909px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding: 66px 0;
+}
+
+.terciaria__box__flex {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 25px;
+
+}
+
+.terciaria__formato__box {
+    width: 355px;
+    height: 472px;
+    background-color: var(--cor-bg-2);
+    border-radius: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    text-align: center;
+}
+
+.terciaria__box__icones {
+    padding-top: 36px;
+}
+
+.terciaria__box__titulo {
+    font-family: var(--fonte-1);
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 32px;
+    padding-top: 50px;
+    color: var(--cor-texto-1);
+}
+
+.terciaria__box__paragrafo {
+    padding: 0 20px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    color: var(--cor-texto-2);
+    font-family: var(--fonte-1);
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 1rem;
+    height: 20px;
+}
+
+.terciaria__box__botao__bg {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    background: linear-gradient(90deg, #FFE259 0%, #FFA751 100%);
+    box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+    border-radius: 36px;
+    width: 264px;
+    height: 56px;
+}
+
+.terciaria__box__botao {
+    font-family: var(--fonte-1);
+    font-size: 0.875rem;
+    text-decoration: none;
+    color: var(--cor-texto-1);
+    text-transform: uppercase;
+    padding: 16px 28px;
+    font-weight: 500;
+}
+
+.terciaria__segundaparte__flex {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+.terciaria__segundaparte__bglista {
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.8) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 12px;
+    width: 744.25px;
+    height: 96.6px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 0 auto;
+}
+
+.terciaria__segundaparte__lista {
+    font-family: var(--fonte-1);
+    color: #267385;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 0 50px;
+}
+
+.terciaria__footer__bg {
+    background: linear-gradient(180deg, rgba(2, 177, 172, 0.99) 0%, #00716D 100%);
+}
+
+.terciaria__footer_texto {
+    font-family: var(--fonte-1);
+    color: var(--cor-texto-3);
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.875rem;
+    line-height: 150%;
+    padding: 41px 110px;
+}
+
+.quatro__titulo__1 {
+    text-align: center;
+    font-family: var(--fonte-1);
+    color: var(--cor-texto-1);
+    font-weight: 700;
+    font-size: 2.75rem;
+    padding-top: 40px;
+}
+
+.quatro__titulo__2 {
+    text-align: center;
+    font-family: var(--fonte-1);
+    color: var(--cor-texto-2);
+    font-weight: 500;
+    font-size: 1.25rem;
+    padding-top: 16px;
+}
+
+.quatro__box__flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1440px;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    gap: 10px;
+}
+
+.quatro__formato__box {
+    width: 359px;
+    height: 326px;
+}
+
+.quatro__box__icones {
+    display: block;
+    margin: 0 auto;
+    padding-top: 32px;
+}
+
+.quatro__box__titulo {
+    display: block;
+    margin: 0 auto;
+    font-family: var(--fonte-1);
+    color: #00A199;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 133%;
+    padding: 24px 0;
+    width: 249px;
+    height: 64px;
+}
+
+.quatro__box__paragrafo {
+    display: block;
+    margin: 0 auto;
+    font-family: var(--fonte-1);
+    color: #556987;
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 133%;
+    width: 295px;
+}
+
+.cinco__titulo__1 {
+    text-align: center;
+    font-family: var(--fonte-1);
+    color: var(--cor-texto-1);
+    font-weight: 700;
+    font-size: 2rem;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.cinco__flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cinco__div {
+    padding-left: 50px;
+}
+
+.cinco__imagem {
+    width: 550px;
+    height: 718px;
+}
+
+.cinco__titulo__lista {
+    font-family: var(--fonte-1);
+    font-size: 1.75rem;
+    color: #2A3342;
+    font-weight: 700;
+    width: 540px;
+    
+}
+
+.cinco__lista__lista {
+    list-style-image: url(./img/camingo-clinicar.png);
+    list-style-position: outside;
+    color: var(--cor-texto-2);
+    font-family: var(--fonte-1);
+    font-weight: 500;
+    font-size: 1.25rem;
+    padding-left: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 520px;
+}
+
+.cinco__paragrafo {
+    color: var(--cor-texto-2);
+    font-family: var(--fonte-1);
+    font-weight: 500;
+    font-size: 1.25rem;
+    align-items: baseline;
+    padding-top: 5px;
+    width: 520px;
+}
+
+.cinco__botao {
+    padding-left: 140px;
+}
+
+.cinco__botao__conheca {
+    font-family: var(--fonte-1);
+    font-weight: 500;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--cor-texto-1);
+    padding: 16px 28px;
+    background: linear-gradient(90deg, #FFE259 0%, #FFA751 100%);
+    box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+    border-radius: 36px;
+    text-align: center;
+}
+
+.seis {
+    background-image: url(img/bg-oqestaofalando.png);
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+}
+
+.seis__titulo__1 {
+    font-family: var(--fonte-1);
+    color: var(--cor-texto-1);
+    font-weight: 700;
+    font-size: 3.438rem;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.seis__flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.seis__imagem {
+    width: 508px;
+    height: 508px;
+    padding-top: 130px;
+    padding-left: 90px;
+}
+
+.seis__depoimento {
+    font-family: var(--fonte-1);
+    font-weight: 600;
+    font-size: 1.5rem;
+    width: 554px;
+    height: 160px;
+    padding-top: 260px;
+    padding-right: 90px;
+}
+
+.seis__depoimento__loja {
+    font-family: var(--fonte-1);
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: var(--cor-texto-2);
+    width: 554px;
+    height: 160px;
+}
+
+.sete {
+    background-image: url(img/bg_geleira.png);
+    background-repeat: no-repeat;
+    background-position: 50% 280px;
+    padding-bottom: 230px;
+}
+
+
+.sete__titulo__1 {
+    display: block;
+    margin: 0 auto;
+    font-family: var(--fonte-1);
+    color: var(--cor-texto-1);
+    font-weight: 700;
+    font-size: 3.75rem;
+    width: 1200px;
+    line-height: 120%;
+}
+
+.sete__paragrafo__1 {
+    font-family: var(--fonte-1);
+    color: var(--cor-texto-2);
+    width: 954px;
+    padding-left: 122px;
+    font-size: 1.25rem;
+    padding-top: 15px;
+    line-height: 150%;
+}
+
+.sete__titulo {
+    font-family: var(--fonte-1);
+    color: #35BAC7;
+    font-weight: 700;
+    font-size: 4.5rem;
+    width: 550px;
+    line-height: 104%;
+    padding-top: 150px;
+    padding-left: 745px;
+}
+
+.sete__paragrafo {
+    font-family: var(--fonte-1);
+    color: var(--cor-texto-2);
+    font-weight: 500;
+    font-size: 1.469rem;
+    width: 474px;
+    line-height: 31px;
+    padding-top: 117px;
+    padding-left: 800px;
+}
+
+.oito__iconefaq {
+    width: 79px;
+    height: 22px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: var(--cor-texto-6);
+    box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+    border-radius: 36px;
+    color: var(--cor-bg-1);
+    font-family: var(--fonte-1);
+    font-weight: 500;
+    font-size: 0.75;
+}
+
+.oito__titulo {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: var(--fonte-1);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 125px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    width: 977px;
+    color: var(--cor-texto-1);
+    display: block;
+    margin: 0 auto;
+}
+
+.oito__subtitulo {
+    display: block;
+    margin: 0 auto;
+    font-family: var(--fonte-1);
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: var(--cor-texto-2);
+    text-align: center;
+    width: 1140px;
+    line-height: 30px;
+    padding-bottom: 50px;
+    padding-top: 2px;
+}
+  
+.faq__conteudo {
+    margin: 0 auto;
+    width: 975px;
+    padding-bottom: 50px;
+}
+  
+.faq__pergunta {
+    padding: 20px 0;
+    border: solid 3px var(--cor-texto-6);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+}
+  
+.faq__pergunta__pergunta {
+    font-size: 1.250rem;
+    width: 100%;
+    font-family: var(--fonte-1);
+    color: var(--cor-texto-6);
+    font-weight: 700;
+    position: relative;
+    margin: 0;
+    padding: 0px 10px 0px 34px;
+    display: block;
+    cursor: pointer;
+}
+  
+.faq__pergunta__resposta {
+    font-family: var(--fonte-2);
+    font-size: 1rem;
+    color: var(--cor-texto-2);
+    padding: 0px 0px;
+    margin-left: 34px;
+    width: 830px;
+    height: 0;
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+    opacity: 0;
+    -webkit-transition: .4s ease;
+    -moz-transition: .4s ease;
+    -o-transition: .4s ease;
+    transition: .4s ease;
+}
+  
+.painel:checked ~ .faq__pergunta__resposta {
+    height: auto;
+    opacity: 1;
+    padding: 15px 0px 5px 0px;
+}
+  
+.faq__icone {
+    position: absolute;
+    margin-left: 930px;
+    margin-top: 5px;
+    z-index: 5;
+    -webkit-user-select: none;    
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    -webkit-transition: .2s ease;
+    -moz-transition: .2s ease;
+    -o-transition: .2s ease;
+    transition: .2s ease;
+}
+  
+.painel:checked ~ .faq__icone {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+  
+.painel {
+    display: none;
+}
+
+.footer {
+    background-image: url(img/bg-footer.png);
+    background-repeat: no-repeat;
+    padding-top: 90px;
+    background-color: #F7F8F9;
+}
+
+.footer__copy {
+    font-family: var(--fonte-1);
+    color: #556987;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 106px;
+}
